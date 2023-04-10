@@ -27,7 +27,6 @@
   grid-area: item1;
 }
 
-
 #main_footer {
   grid-area: ft;
 }
@@ -39,9 +38,10 @@
   margin-right: 40px;
 }
 
-#blog_img2, #blog_img4 {
+#blog_img2,
+#blog_img4 {
   height: 300px;
-  width: 400px;
+  width: 500px;
   padding: 10px;
   margin-right: 40px;
 }
@@ -61,11 +61,7 @@
 }
 
 .box-containers {
-  /* height: px; */
-  /* background-color: lightblue; */
   display: flex;
-  /* justify-content: space-between; */
-  /* align-items: center; */
   flex-direction: row;
 }
 
@@ -98,7 +94,7 @@ p {
     align-items: center;
   }
 
-  .box-containers {
+  .main-container {
     display: block;
   }
 }
