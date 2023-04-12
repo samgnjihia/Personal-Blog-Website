@@ -14,6 +14,7 @@
     "nav nav"
     "course-box course-box "
     "item1 item1 "
+    "item2 item2 "
     "ft ft";
 }
 
@@ -26,6 +27,15 @@
 #box_item1 {
   grid-area: item1;
 }
+#box_item2 {
+  grid-area: item1;
+}
+#box_item3 {
+  grid-area: item2;
+}
+#box_item4 {
+  grid-area: item2;
+}
 
 #main_footer {
   grid-area: ft;
@@ -35,7 +45,7 @@
   height: 500px;
   width: 1400px;
   padding: 10px;
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 
 #blog_img2,
@@ -43,7 +53,7 @@
   height: 300px;
   width: 500px;
   padding: 10px;
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 
 .course-box {
@@ -63,6 +73,7 @@
 .box-containers {
   display: flex;
   flex-direction: row;
+  
 }
 
 .box-items {
@@ -70,12 +81,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #0077ff;
+  background-color: #E09E50;
   margin: 15px;
   border-radius: 10px;
   color: white;
   padding: 20px;
-  /* justify-content: space-around; */
 }
 
 .box-header {
@@ -87,14 +97,19 @@ p {
   margin-top: 0px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .course-box {
     display: flex;
     flex-direction: column;
     align-items: center;
+
   }
 
   .main-container {
     display: block;
+
   }
+  
+
+
 }
